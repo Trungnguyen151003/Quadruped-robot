@@ -31,13 +31,13 @@ This project trains a locomotion policy using **TD3** and provides **DDPG** as a
 ## Reward (TD3 vs DDPG)
 - TD3 converges more stably than DDPG, especially on more challenging slopes.
 - Flat terain
-<img width="800" height="600" alt="TD3 vs DDPG (Flat)" src="https://github.com/user-attachments/assets/cbd0fec8-ae9c-40e4-a2f5-49432d556ea5" />
+<img width="700" height="400" alt="TD3 vs DDPG (Flat)" src="https://github.com/user-attachments/assets/cbd0fec8-ae9c-40e4-a2f5-49432d556ea5" />
 
 - 5-degree slope
-<img width="800" height="600" alt="TD3 vs DDPG (5degree)" src="https://github.com/user-attachments/assets/53fb2b3c-3798-413e-bb3d-5ccccc52d5af" />
+<img width="700" height="400" alt="TD3 vs DDPG (5degree)" src="https://github.com/user-attachments/assets/53fb2b3c-3798-413e-bb3d-5ccccc52d5af" />
 
 - 9-degree slope
-<img width="800" height="600" alt="TD3 vs DDPG (9degree)" src="https://github.com/user-attachments/assets/be70747b-149c-4c8e-8b09-64aa59b7df00" />
+<img width="700" height="400" alt="TD3 vs DDPG (9degree)" src="https://github.com/user-attachments/assets/be70747b-149c-4c8e-8b09-64aa59b7df00" />
 
 ## Limitations
 - Simulation-only (no hardware / sim-to-real validation)
