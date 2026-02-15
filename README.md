@@ -19,6 +19,7 @@ This project trains a locomotion policy using **TD3** and provides **DDPG** as a
 
 ## Demo TD3
 - Flat terain: https://www.youtube.com/watch?v=mleIhm7A_gQ
+
   <img width="520" height="291" alt="Flat" src="https://github.com/user-attachments/assets/c7128ce0-b049-4ee7-af67-2ff9daed6911" />
 
 - 5-degree slope: https://www.youtube.com/watch?v=WYjNU7DuYsE
@@ -26,16 +27,17 @@ This project trains a locomotion policy using **TD3** and provides **DDPG** as a
 
 - 9-degree slope: https://www.youtube.com/watch?v=D4nhlst5EFM
 <img width="603" height="373" alt="9degree" src="https://github.com/user-attachments/assets/62a96f42-52e5-409f-9d5d-f94b4e9e9b73" />
+
 ## Reward (TD3 vs DDPG)
-TD3 converges more stably than DDPG, especially on more challenging slopes.
+- TD3 converges more stably than DDPG, especially on more challenging slopes.
 - Flat terain
-<img width="1000" height="800" alt="TD3 vs DDPG (Flat)" src="https://github.com/user-attachments/assets/cbd0fec8-ae9c-40e4-a2f5-49432d556ea5" />
+<img width="800" height="600" alt="TD3 vs DDPG (Flat)" src="https://github.com/user-attachments/assets/cbd0fec8-ae9c-40e4-a2f5-49432d556ea5" />
 
 - 5-degree slope
-<img width="1000" height="800" alt="TD3 vs DDPG (5degree)" src="https://github.com/user-attachments/assets/53fb2b3c-3798-413e-bb3d-5ccccc52d5af" />
+<img width="800" height="600" alt="TD3 vs DDPG (5degree)" src="https://github.com/user-attachments/assets/53fb2b3c-3798-413e-bb3d-5ccccc52d5af" />
 
 - 9-degree slope
-<img width="1000" height="800" alt="TD3 vs DDPG (9degree)" src="https://github.com/user-attachments/assets/be70747b-149c-4c8e-8b09-64aa59b7df00" />
+<img width="800" height="600" alt="TD3 vs DDPG (9degree)" src="https://github.com/user-attachments/assets/be70747b-149c-4c8e-8b09-64aa59b7df00" />
 
 ## Limitations
 - Simulation-only (no hardware / sim-to-real validation)
